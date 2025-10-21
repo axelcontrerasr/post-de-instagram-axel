@@ -29,12 +29,16 @@ img{
 }
 
 .header {
+    align-items: center;
     margin-top: 10%;
     display: flex;
     justify-content: space-between;
     padding: 1% 5% 1% 5%;
 }
+.header p {
+    color: rgb(213, 211, 211);
 
+}
 .title {
     border-left: 100px;
 }
@@ -43,8 +47,10 @@ img{
 }
 .footer {
     border-left: 100px;
+    padding: 1% 5% 1% 5%;
 
 }
-#miHashtag {
+.miHashtag {
   font-size: 20px;
+  color:blue;
 }

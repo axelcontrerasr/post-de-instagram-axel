@@ -1,0 +1,50 @@
+body {
+    background-color:whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+img{
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.titlepage {
+    font-weight: bold;
+    background-color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.foto {
+    background-color: white;
+    width: 600px;
+    height: 750px;
+    margin-bottom: 100px;
+    border-radius: 2%;
+}
+
+.header {
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 5% 1% 5%;
+}
+
+.title {
+    border-left: 100px;
+}
+.fecha {
+    color:gainsboro;
+}
+.footer {
+    border-left: 100px;
+
+}
+#miHashtag {
+  font-size: 20px;
+}
